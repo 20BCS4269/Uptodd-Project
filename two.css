@@ -1,0 +1,193 @@
+
+
+ /* Custom CSS */
+.scroll-hidden {
+    overflow: hidden;
+  }
+  
+  
+  header {
+    background-color: #FFE0E0;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 16px;
+  }
+  
+  header nav ul li a {
+    color: #EF4444;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  header a.bg-red-500 {
+    background-color: #EF4444;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header a.bg-red-500:hover {
+    background-color: #DC2626;
+  }
+  
+  main {
+    overflow: hidden;
+  }
+  
+  main section.bg-purple-500 {
+    background-color: #7C3AED;
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+  }
+  
+  main section.bg-purple-500 h2 {
+    font-size: 24px;
+  }
+  
+  main section.bg-purple-500 h1 {
+    font-size: 32px;
+    margin-top: 16px;
+  }
+  
+  main section.bg-white {
+    background-color: white;
+    padding: 32px 16px;
+  }
+  
+  main section.bg-white h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  main section.bg-white div.text-center {
+    text-align: center;
+    margin: 0 16px;
+  }
+  
+  main section.bg-white div.text-center img {
+    margin: 0 auto;
+  }
+  
+  main section.bg-gray-100 {
+    background-color: #F3F4F6;
+    padding: 32px 16px;
+  }
+  
+  main section.bg-gray-100 h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  main section.bg-gray-100 div.text-center {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 16px;
+  }
+  
+  main section.bg-gray-100 div.text-center img {
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  
+  main section.bg-gray-100 div.text-center p {
+    font-size: 16px;
+    color: #4B5563;
+  }
+  
+  main section.bg-gray-100 div.text-center a.bg-red-500 {
+    background-color: #EF4444;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main section.bg-gray-100 div.text-center a.bg-red-500:hover {
+    background-color: #DC2626;
+  }
+  
+  main section.bg-gray-100 div.text-center div {
+    text-align: center;
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+  
+  main section.bg-gray-100 div.text-center div p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+  }
+  
+  main section.bg-white h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  main section.bg-white div.text-center {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 16px;
+  }
+  
+  main section.bg-white div.text-center img {
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  
+  main section.bg-white div.text-center p {
+    font-size: 16px;
+    color: #4B5563;
+  }
+  
+  main section.bg-purple-500 p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  main section.bg-purple-500 a.bg-red-500 {
+    background-color: #EF4444;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main section.bg-purple-500 a.bg-red-500:hover {
+    background-color: #DC2626;
+  }
+  
+  main section.bg-gray-100.text-center {
+    background-color: #F3F4F6;
+    padding: 32px 16px;
+  } */

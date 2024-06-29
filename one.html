@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UpTodd</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS */
+    .scroll-hidden {
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #FFE0E0;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header nav ul {
+      display: flex;
+      gap: 16px;
+    }
+
+    header nav ul li a {
+      color: #EF4444;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    header a.bg-red-500 {
+      background-color: #EF4444;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header a.bg-red-500:hover {
+      background-color: #DC2626;
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    main section.bg-purple-500 {
+      background-color: #7C3AED;
+      color: white;
+      text-align: center;
+      padding: 32px 16px;
+    }
+
+    main section.bg-purple-500 h2 {
+      font-size: 24px;
+    }
+
+    main section.bg-purple-500 h1 {
+      font-size: 32px;
+      margin-top: 16px;
+    }
+
+    main section.bg-white {
+      background-color: white;
+      padding: 32px 16px;
+    }
+
+    main section.bg-white h2 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    main section.bg-white div.text-center {
+      text-align: center;
+      margin: 0 16px;
+    }
+
+    main section.bg-white div.text-center img {
+      margin: 0 auto;
+    }
+
+    main section.bg-gray-100 {
+      background-color: #F3F4F6;
+      padding: 32px 16px;
+    }
+
+    main section.bg-gray-100 h2 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    main section.bg-gray-100 div.text-center {
+      background-color: white;
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 0 16px;
+    }
+
+    main section.bg-gray-100 div.text-center img {
+      margin: 0 auto;
+      margin-bottom: 8px;
+    }
+
+    main section.bg-gray-100 div.text-center p {
+      font-size: 16px;
+      color: #4B5563;
+    }
+
+    main section.bg-gray-100 div.text-center a.bg-red-500 {
+      background-color: #EF4444;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main section.bg-gray-100 div.text-center a.bg-red-500:hover {
+      background-color: #DC2626;
+    }
+
+    main section.bg-gray-100 div.text-center div {
+      text-align: center;
+      margin: 32px 0;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+    }
+
+    main section.bg-gray-100 div.text-center div p {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1F2937;
+    }
+
+    main section.bg-white h2 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    main section.bg-white div.text-center {
+      background-color: white;
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 0 16px;
+    }
+
+    main section.bg-white div.text-center img {
+      margin: 0 auto;
+      margin-bottom: 8px;
+    }
+
+    main section.bg-white div.text-center p {
+      font-size: 16px;
+      color: #4B5563;
+    }
+
+    main section.bg-purple-500 p {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    main section.bg-purple-500 a.bg-red-500 {
+      background-color: #EF4444;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main section.bg-purple-500 a.bg-red-500:hover {
+      background-color: #DC2626;
+    }
+
+    main section.bg-gray-100.text-center {
+      background-color: #F3F4F6;
+      padding: 32px 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://placehold.co/100x50" alt="UpTodd Logo">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Success Story</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="bg-red-500">Book a Free Demo</a>
+  </header>
+  <main>
+    <section class="bg-purple-500">
+      <h2>Achievers</h2>
+      <h1>Real Stories: Watch Babies Thrive</h1>
+      <div>
+        <p>Developmental Wonders: Early Learning Made Fun</p>
+        <img src="https://placehold.co/600x400" alt="Developmental Stages">
+      </div>
+    </section>
+    <section class="bg-white">
+      <h2>Happy Parents, Thriving Tots: Witnessing Their Child's Growth</h2>
+      <div class="text-center">
+        <img src="https://placehold.co/300x200" alt="Story 1">
+        <p>Audio visual technology is creating a difference and has become a positive routine</p>
+      </div>
+      <div class="text-center">
+        <img src="https://placehold.co/300x200" alt="Story 2">
+        <p>Audio visual technology is creating a difference and has become a positive routine</p>
+      </div>
+      <div class="text-center">
+        <img src="https://placehold.co/300x200" alt="Story 3">
+        <p>Audio visual technology is creating a difference and has become a positive routine</p>
+      </div>
+      <div class="text-center">
+        <a href="#" class="bg-red-500">See All</a>
+      </div>
+      <div class="text-center">
+        <p>158 Countries</p>
+        <p>98% Happiness</p>
+        <p>107 International & 213 National Records</p>
+        <p>1,50,000+ Parents</p>
+      </div>
+    </section>
+    <section class="bg-gray-100">
+      <h2>Brilliant Minds: Celebrating Global Baby Champions</h2>
+      <div class="text-center">
+        <img src="https://placehold.co/300x200" alt="Champion 1">
+        <p>UpTodd's Little Genius Identified 416 Flashcards within 10 Minutes</p>
+      </div>
+      <div class="text-center">
+        <img src="https://placehold.co/300x200" alt="Champion 2">
+        <p>UpTodd's Little Genius Identified 416 Flashcards within 10 Minutes</p>
+      </div>
+      <div class="text-center">
+        <img src="https://placehold.co/300x200" alt="Champion 3">
+        <p>UpTodd's Little Genius Identified 416 Flashcards within 10 Minutes</p>
+      </div>
+    </section>
+    <section class="bg-purple-500">
+      <h2>Imagine what your child can achieve! Explore personalized development that strengthens neural connections and builds a strong foundation for their future.</h2>
+      <div class="text-center">
+        <a href="#" class="bg-red-500">Start Now</a>
+      </div>
+    </section>
+    <section class="bg-white">
+      <h2>Started with passion to create global impact, creating real success stories in families across globe</h2>
+      <div class="text-center">
+        <img src="https://
